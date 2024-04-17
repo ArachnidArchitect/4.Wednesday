@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    background-color: #FAF0CA;
+}
+header{
+    text-align: center;
+    padding: 2em;
+    background-color: #F95738;
+    color: white;
+    box-shadow: 1px 1px 1px 1px #F95738;
+    
+
+}
+
+
+section{
+    height: 50vh;
+    align-content: center;
+   text-align: center;
+   margin: 0;
+   padding: 2em 0 2em 0;
+
+}
+.code{
+    padding: 0 5em 1em 5em;
+    overflow: wrap;
+    align-self: center;
+    
+}
+.code p{
+    padding: 1em;
+}
+
+.table-container{
+    height: 50vh;
+}
+table{
+    height: 100%;
+    width: 100%;
+}
+tr{
+    text-align: center;
+}
+.lessons{
+    height: 100vh;
+    background-color: #FAF0CA;
+}
+.lessons h1{
+    text-align: center;
+}
+ul{
+    padding 2em;
+    margin:1.5em
+}
+ul li{
+    padding: 1em;
+}
+ol{
+    padding 2em;
+    margin:1.5em
+}
+ol li{
+    padding: 1em;
+}
+
+.form-cont{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #0D3B66;
+    align-items: center;
+
+}
+.form-template{
+    width: 20%;
+    background-color: whitesmoke;
+    padding: 4.5em;
+    border-radius: 5em;
+    height: 90%;
+}
+.form-template h1{
+    justify-content: center;
+}
+.divi{
+    padding:.5em;
+    text-align: left;
+}
+th{
+    background-color: #0D3B66;
+    color: whitesmoke;
+}
+td{
+    background-color: #849698;
+}
+
